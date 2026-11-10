@@ -1,0 +1,16 @@
+# Wang et al., "Masked Face Recognition Dataset and Application", IEEE TBIOM 5(2), 2023,
+# arXiv:2003.09093. The checks follow the arXiv text; the journal version was not available.
+source: arXiv:2003.09093
+tolerance_pp: 1.0
+
+# Abstract and Sec. III: the multi-granularity model reaches 95% on masked faces, up from
+# an initial 50%.
+masked_accuracy: 95.0
+masked_accuracy_before: 50.0
+
+# Sec. IV: regular face recognition already exceeds 99%.
+unmasked_accuracy: 99.0
+
+# The official RMFRD verification protocol (DEVIATIONS.md D4): 7,178 masked/unmasked pairs,
+# half of them mated.
+rmfrd_pairs: 7178
